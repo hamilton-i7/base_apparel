@@ -1,0 +1,16 @@
+.footer {
+    background-color: $color-black;
+    padding: 1.5rem;
+
+    &__paragraph {
+        color: $color-white;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    &__link {
+        color: currentColor;
+        font-weight: 600;
+        text-decoration: none;
+    }
+}

@@ -4,7 +4,10 @@
 @import "base/reset";
 @import "base/typography";
 
-@import "components/forms";
+@import "components/email";
 
+@import "layout/cta";
+@import "layout/desktop";
 @import "layout/footer";
-@import "layout/header";
+@import "layout/hero";
+@import "layout/infographic";
