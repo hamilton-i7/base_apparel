@@ -1,6 +1,5 @@
 .cta {
     height: 100%;
-    padding: 0 2rem;
     padding-bottom: 12%;
 
     @media only screen and (min-width: 1000px) {
@@ -24,6 +23,9 @@
     }
 
     &__paragraph {
+        @media only screen and (orientation: portrait) {
+            padding: 0 2rem;
+        }
         @media only screen and (min-width: 1250px) {
             margin-bottom: 2rem;
         }
