@@ -9,6 +9,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/script.js" defer></script>
   
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 </head>
@@ -38,22 +40,22 @@
           </p>
         </div>
   
-        <div class="email-container">
+        <form action="#" class="email-container" id="form">
           <input type="email" name="email" id="email" placeholder="Email Address" class="email">
           <div class="error-icon-box">
-            <img src="images/icon-error.svg" alt="Error icon" class="error-icon">
+            <img src="images/icon-error.svg" alt="Error icon" class="error-icon hidden" id="js--error-icon">
           </div>
-          <button type="submit" class="button">
+          <button type="submit" class="button" id="js--btn">
             <img src="images/icon-arrow.svg" alt="Right arrow icon" class="button__icon">
           </button>
   
-          <p class="error-invalid">
+          <p class="error-invalid hidden" id="js--invalid">
             Please provide a valid email
           </p>
-          <p class="error-empty">
-            Please provide an email!
+          <p class="error-empty hidden" id="js--empty">
+            Please provide an email
           </p>
-        </div>
+        </form>
       </section>
     </main>
   
