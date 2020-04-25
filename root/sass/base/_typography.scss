@@ -32,6 +32,9 @@ body {
     @media only screen and (min-width: 1375px) {
         font-size: 5.5rem;
     }
+    @media only screen and (min-width: 1400px) {
+        font-size: 6rem;
+    }
 
     span {
         color: $color-primary-1;

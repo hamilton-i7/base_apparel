@@ -92,6 +92,12 @@ body {
   }
 }
 
+@media only screen and (min-width: 1400px) {
+  .heading-primary {
+    font-size: 6rem;
+  }
+}
+
 .heading-primary span {
   color: #ce9797;
   display: block;
@@ -172,6 +178,12 @@ body {
 @media only screen and (min-width: 1375px) {
   .email-container {
     width: 82%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .email-container {
+    width: 75%;
   }
 }
 
@@ -365,6 +377,12 @@ body {
 @media only screen and (min-width: 1300px) and (min-height: 421px) {
   .cta {
     margin-top: 32%;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (min-height: 421px) {
+  .cta {
+    margin-top: 26%;
   }
 }
 
